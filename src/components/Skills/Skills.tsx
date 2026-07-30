@@ -91,19 +91,12 @@ function Skills() {
 
         <div className="core-skills">
           <h3>
-            <span className="material-symbols-outlined">
-              verified
-            </span>
-
-            Core Skills
+            <span className="material-symbols-outlined"> verified </span> Core Skills
           </h3>
 
           <div className="core-skills__list">
             {coreSkills.map((skill) => (
-              <div
-                className="core-skills__item"
-                key={skill.id}
-              >
+              <div className="core-skills__item"key={skill.id}>
                 {skill.name}
               </div>
             ))}

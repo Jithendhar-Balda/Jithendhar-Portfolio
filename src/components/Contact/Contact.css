@@ -162,9 +162,6 @@
   background: var(--color-primary-blue-light);
 }
 
-/* ==========================
-   Responsive
-========================== */
 
 @media (max-width: 48rem) {
   .contact__container {

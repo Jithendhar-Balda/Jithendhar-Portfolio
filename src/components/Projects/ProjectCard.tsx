@@ -11,8 +11,7 @@ function ProjectCard({ project }: ProjectCardProps) {
         <img
           src={project.image}
           alt={project.title}
-          className="project-card__image"
-        />
+          className="project-card__image" />
 
         <a
           href={project.github}

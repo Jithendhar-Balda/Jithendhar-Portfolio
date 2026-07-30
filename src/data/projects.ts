@@ -8,7 +8,7 @@ export const projects: Project[] = [
     title: "BGSCET College Website",
     description:
       "A modern, responsive college website built using React, TypeScript, and CSS3, featuring a scalable component architecture, dynamic department pages, reusable UI components, and an intuitive user experience.",
-    image: "/src/assets/images/projects/bgscet.jpg",
+    image: "/src/assets/images/projects/bgscet.png",
     github: "https://github.com/naveen-manthri/bgscet",
     technologies: ["React", "TypeScript"],
     category: "Full Stack",

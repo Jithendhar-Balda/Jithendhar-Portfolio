@@ -18,7 +18,7 @@ function Navbar() {
           </ul>
         </nav>
 
-        <a href="#" className="navbar__resume">
+        <a href="/pdf/resume.pdf" download="Resume.pdf" className="navbar__resume">
           Download Resume
         </a>
       </div>
