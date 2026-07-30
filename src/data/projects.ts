@@ -15,12 +15,12 @@ export const projects: Project[] = [
   },
   {
     id: 2,
-    title: "Nebula Core API",
+    title: "Personal Portfolio Website",
     description:
-      "I am a Full Stack Developer focused on building efficient, scalable applications using Python and modern frontend technologies.",
-    image: "/src/assets/images/projects/nebula-core-api.jpg",
-    github: "#",
-    technologies: ["Python", "AI/ML"],
+      "A fully responsive portfolio showcasing my projects, skills, and experience. Built using React, TypeScript, and CSS3 with a minimal, modern interface and component-based architecture.",
+    image: "/src/assets/images/projects/portfolio.png",
+    github: "#https://github.com/Jithendhar-Balda/Jithendhar-Portfolio",
+    technologies: ["React", "Typescript", "CSS3"],
     category: "Backend",
   },
 ];

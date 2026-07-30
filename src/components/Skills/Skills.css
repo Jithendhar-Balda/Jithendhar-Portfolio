@@ -8,6 +8,7 @@
 
   margin: 0 auto;
   padding: 6.25rem 2.75rem;
+  background: var(--color-bg-main);
 }
 
 .skills::before {
@@ -179,9 +180,9 @@
 }
 
 .skills__language:hover {
-  transform: translateY(-0.3125rem);
- background: var(--color-surface-light);
-  color: var(--color-primary-blue-dark);
+  transform: translateY(-0.25rem);
+
+  background: var(--color-surface-hover);
 }
 
 .skills__language span {
@@ -358,7 +359,7 @@
 }
 
 .core-skills__item:hover {
-  transform: translateY(-0.25rem);
+  transform: translateY(-0.15rem);
 
   background: var(--color-surface-light);
   color: var(--color-primary-blue-dark);

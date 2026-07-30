@@ -3,9 +3,9 @@ import type { Certificate } from "../types/certificate";
 export const certificates: Certificate[] = [
   {
     id: 1,
-    title: "Backend Engineering Intern",
-    organization: "Techcorp International",
-    duration: "Jan 2022 - Jun 2022",
+    title: "Web Development Intern",
+    organization: "Raise Digital, Hyderabad",
+    duration: "Aug 2022 - Sep 2022",
     icon: "workspace_premium",
   },
   {

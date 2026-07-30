@@ -25,23 +25,14 @@ function Footer() {
           </div>
 
           <div className="footer__socials">
-            <a
-              href="https://github.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              GitHub
+            <a href="https://github.com/Jithendhar-Balda/" target="_blank" rel="noreferrer" > GitHub
             </a>
 
-            <a
-              href="https://linkedin.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://linkedin.com/" target="_blank" rel="noreferrer" >
               LinkedIn
             </a>
 
-            <a href="mailto:yourmail@gmail.com">
+            <a href="mailto:baldajithendhar@gmail.com">
               Email
             </a>
           </div>
@@ -52,9 +43,6 @@ function Footer() {
             © {currentYear} Jithendhar. All Rights Reserved.
           </p>
 
-          <span>
-            Built with React + TypeScript + CSS3
-          </span>
         </div>
       </div>
     </footer>
