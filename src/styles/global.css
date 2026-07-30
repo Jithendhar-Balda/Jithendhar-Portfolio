@@ -1,0 +1,110 @@
+/* body {
+  font-family: var(--font-family);
+  background: var(--color-bg-main);
+  color: var(--color-text-dark);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+main {
+  width: 100%;
+}
+
+section {
+  width: min(100%, var(--container-width));
+  margin-inline: auto;
+  padding: var(--space-3xl) var(--space-sm);
+}
+
+.container {
+  width: min(100%, var(--container-width));
+  margin-inline: auto;
+}
+
+.section-title {
+  margin-bottom: var(--space-xl);
+}
+
+.section-title h2 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: var(--fw-bold);
+  color: var(--color-text-dark);
+}
+
+.section-title p {
+  margin-top: var(--space-xs);
+  color: var(--color-text-secondary);
+}
+
+.primary-btn {
+  background: var(--color-btn-primary-bg);
+  color: var(--color-btn-primary-text);
+  border-radius: var(--radius-pill);
+  padding: .9rem 1.6rem;
+  transition: var(--transition);
+}
+
+.primary-btn:hover {
+  background: var(--color-btn-primary-hover);
+}
+
+.secondary-btn {
+  background: var(--color-btn-secondary-bg);
+  color: var(--color-btn-secondary-text);
+  border-radius: var(--radius-pill);
+  padding: .9rem 1.6rem;
+  transition: var(--transition);
+}
+
+.secondary-btn:hover {
+  background: var(--color-surface-hover);
+}
+
+.card {
+  background: var(--color-bg-card);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+@media (max-width: 75rem) {
+  section {
+    padding-inline: 2rem;
+  }
+}
+
+@media (max-width: 48rem) {
+  section {
+    padding-inline: 1.25rem;
+    padding-block: 5rem;
+  }
+} */
+
+
+@import "../components/Navbar/Navbar.css";
+@import "../components/Hero/Hero.css";
+@import "../components/About/About.css";
+@import "../components/Skills/Skills.css";
+@import "../components/Projects/Projects.css";
+@import "../components/Certificates/Certificates.css";
+@import "../components/Contact/Contact.css";
+@import "../components/Footer/Footer.css";
+
+body {
+  font-family: var(--font-family);
+  background: var(--color-bg-main);
+  color: var(--color-text-dark);
+  overflow-x: hidden;
+}
+
+main {
+  width: 100%;
+}
+
+section {
+  width: 100%;
+}
+
+.container {
+  width: min(100%, var(--container-width));
+  margin-inline: auto;
+}
