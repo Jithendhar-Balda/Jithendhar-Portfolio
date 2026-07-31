@@ -4,4 +4,5 @@ export interface Certificate {
   organization: string;
   duration: string;
   icon: string;
+  certificateUrl: string;
 }
