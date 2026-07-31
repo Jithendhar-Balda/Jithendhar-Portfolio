@@ -1,4 +1,5 @@
 import "./Footer.css";
+// import { FaGithub, FaLinkedinIn, FaEnvelope } from "react-icons/fa";
 
 function Footer() {
   const currentYear = new Date().getFullYear();
@@ -6,7 +7,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer__container">
-        <div className="footer__top">
+        {/* <div className="footer__top">
           <div className="footer__brand">
             <h2>Jithendhar</h2>
 
@@ -17,6 +18,8 @@ function Footer() {
           </div>
 
           <div className="footer__links">
+            <h4>Quick Links</h4>
+
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
@@ -25,24 +28,16 @@ function Footer() {
           </div>
 
           <div className="footer__socials">
-            <a href="https://github.com/Jithendhar-Balda/" target="_blank" rel="noreferrer" > GitHub
-            </a>
+            <h4>Connect</h4>
 
-            <a href="https://linkedin.com/" target="_blank" rel="noreferrer" >
-              LinkedIn
-            </a>
-
-            <a href="mailto:baldajithendhar@gmail.com">
-              Email
-            </a>
+            <a href="https://github.com/Jithendhar-Balda" target="_blank" rel="noopener noreferrer"><FaGithub /><span>GitHub</span></a>
+          <a href="https://www.linkedin.com/in/your-linkedin/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /><span>LinkedIn</span></a>
+          <a href="mailto:baldajithendhar@gmail.com"><FaEnvelope /><span>Email</span></a>
           </div>
-        </div>
+        </div> */}
 
         <div className="footer__bottom">
-          <p>
-            © {currentYear} Jithendhar. All Rights Reserved.
-          </p>
-
+          <p>© {currentYear} Jithendhar. All Rights Reserved.</p>
         </div>
       </div>
     </footer>

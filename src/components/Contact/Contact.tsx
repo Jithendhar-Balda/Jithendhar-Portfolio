@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import { FaGithub, FaLinkedinIn, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import "./Contact.css";
 
 function Contact() {
@@ -35,10 +35,7 @@ function Contact() {
   };
 
   return (
-    <section
-      className="contact"
-      id="contact"
-    >
+    <section className="contact" id="contact" >
       <div className="contact__container">
         <div className="contact__content">
           <span>CONTACT</span>
@@ -50,72 +47,28 @@ function Contact() {
             interface, I'm always excited to work on meaningful projects.
           </p>
 
+          
           <div className="contact__details">
-            <div>
-              <h4>Email</h4>
-              <a href="mailto:yourmail@gmail.com">
-                jithulucky55@gmail.com
-              </a>
-            </div>
+            <a href="mailto:jithulucky55@gmail.com" className="contact__detail mail"><FaEnvelope className="contact__icon " /><span>jithulucky55@gmail.com</span></a>
 
-            <div>
-              <h4>GitHub</h4>
-              <a  href="https://github.com/Jithendhar-Balda" target="_blank" rel="noreferrer" >
-                github/Jithendhar-Balda
-              </a>
-            </div>
+            <a href="https://github.com/Jithendhar-Balda" target="_blank" rel="noopener noreferrer" className="contact__detail github"><FaGithub className="contact__icon " /><span>github.com/Jithendhar</span></a>
 
-            <div>
-              <h4>Location</h4>
-              <p>India</p>
-            </div>
+            <a href="https://www.linkedin.com/in/your-linkedin/" target="_blank" rel="noopener noreferrer" className="contact__detail linkedin"><FaLinkedinIn className="contact__icon " /><span>linkedin.com/Jithendhar</span></a>
+
+            <div className="contact__detail loc"><FaMapMarkerAlt className="contact__icon" /><span>Hyderabad, Telangana, India</span></div>
           </div>
+
         </div>
 
-        <form
-          className="contact__form"
-          onSubmit={handleSubmit}
-        >
-          <input
-            type="text"
-            name="name"
-            placeholder="Your Name"
-            value={formData.name}
-            onChange={handleChange}
-            required
-          />
+        <form className="contact__form" onSubmit={handleSubmit} >
+          <input  type="text" name="name" placeholder="Your Name" value={formData.name} onChange={handleChange} required />
 
-          <input
-            type="email"
-            name="email"
-            placeholder="Your Email"
-            value={formData.email}
-            onChange={handleChange}
-            required
-          />
+          <input type="email" name="email" placeholder="Your Email" value={formData.email} onChange={handleChange} required />
+          <input type="text" name="subject" placeholder="Subject" value={formData.subject} onChange={handleChange} required />
 
-          <input
-            type="text"
-            name="subject"
-            placeholder="Subject"
-            value={formData.subject}
-            onChange={handleChange}
-            required
-          />
+          <textarea name="message" rows={6}  placeholder="Write your message..." value={formData.message} onChange={handleChange}  required />
 
-          <textarea
-            name="message"
-            rows={6}
-            placeholder="Write your message..."
-            value={formData.message}
-            onChange={handleChange}
-            required
-          />
-
-          <button
-            type="submit"
-            className="primary-btn"
-          >
+          <button type="submit" className="primary-btn">
             Send Message
           </button>
         </form>

@@ -2,8 +2,8 @@
 
 import type { Project } from "../types/project";
 
-import bgscetclg from "../App/assets/images/projects/bgscet.png";
-import portfolio from "../App/assets/images/projects/portfolio.png";
+import bgscetclg from "../assets/images/projects/bgscet.png";
+import portfolio from "../assets/images/projects/portfolio.png";
 
 export const projects: Project[] = [
   {

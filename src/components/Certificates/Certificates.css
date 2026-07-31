@@ -57,6 +57,7 @@
   border-radius: var(--radius-lg);
 
   text-align: center;
+  border: 0.0625rem solid var(--color-text-white);
 
   transition: var(--transition);
 }
