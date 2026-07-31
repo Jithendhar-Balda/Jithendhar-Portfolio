@@ -49,7 +49,7 @@ function Contact() {
 
           
           <div className="contact__details">
-            <a href="mailto:jithulucky55@gmail.com" className="contact__detail mail"><FaEnvelope className="contact__icon " /><span>jithulucky55@gmail.com</span></a>
+            <a href="mailto:jithulucky55@gmail.com" className="contact__detail mail"><FaEnvelope className="contact__icon " /><span>baldajithendhar@gmail.com</span></a>
 
             <a href="https://github.com/Jithendhar-Balda" target="_blank" rel="noopener noreferrer" className="contact__detail github"><FaGithub className="contact__icon " /><span>github.com/Jithendhar</span></a>
 

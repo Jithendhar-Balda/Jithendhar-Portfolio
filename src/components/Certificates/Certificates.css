@@ -108,7 +108,10 @@
 .certificate-card p {
   margin: 0;
 }
+.organization{
+  margin-top: 0.25rem;
 
+}
 .certificate-card__icon {
   margin-bottom: 0.75rem;
 

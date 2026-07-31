@@ -22,7 +22,7 @@ function Certificates() {
               </span>
 
               <h4>{certificate.title}</h4>
-              <span>{certificate.organization}</span>
+              <span className="organization">{certificate.organization}</span>
               <p>{certificate.duration}</p>
               <a href={certificate.certificateUrl}  target="_blank"  rel="noopener noreferrer"  className="certificate-card__button">View Certificate</a>
             </article>
