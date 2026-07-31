@@ -18,9 +18,8 @@ function Navbar() {
           </ul>
         </nav>
 
-        <a href="#" className="navbar__resume">
-          Download Resume
-        </a>
+        
+        <a href="/Jithendhar_Balda_Resume.pdf" download="Jithendhar_Balda_Resume.pdf" className="resume-btn navbar__resume">Download Resume</a>
       </div>
     </header>
   );
