@@ -19,7 +19,10 @@ function Navbar() {
         </nav>
 
         
-        <a href="/Jithendhar_Balda_Resume.pdf" download="Jithendhar_Balda_Resume.pdf" className="resume-btn navbar__resume">Download Resume</a>
+        {/* <a href="/Jithendhar_Balda_Resume.pdf" download="Jithendhar_Balda_Resume.pdf" className="resume-btn navbar__resume">Download Resume</a> */}
+        <a href="/pdf/resume.pdf" download="Jithendhar_Resume.pdf" className="navbar__resume">
+          Download Resume
+        </a>
       </div>
     </header>
   );

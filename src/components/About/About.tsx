@@ -4,10 +4,7 @@ import aboutImage from "../../assets/images/profile/about.jpg";
 
 function About() {
   return (
-    <section
-      className="about"
-      id="about"
-    >
+    <section className="about" id="about" >
       <div className="about__container">
         <div className="about__content">
           <span className="about__tag">

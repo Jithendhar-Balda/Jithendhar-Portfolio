@@ -23,6 +23,7 @@
   --color-btn-primary-bg: var(--color-primary-blue);
   --color-btn-primary-hover: var(--color-primary-blue-light);
   --color-btn-primary-text: #ffffff;
+  --color-btn-secondary-text: #0f172a;
 
   --color-btn-secondary-bg: #e2e8f0;
   --color-btn-secondary-text: #0f172a;

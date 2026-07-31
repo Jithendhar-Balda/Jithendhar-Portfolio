@@ -1,6 +1,4 @@
-/* ==========================
-   Certificates
-========================== */
+
 
 .certificates {
   display: flex;
@@ -12,9 +10,6 @@
   background-color: var(--color-border-light);
 }
 
-/* ==========================
-   Header
-========================== */
 
 .certificates__header {
   padding-top: 1.25rem;

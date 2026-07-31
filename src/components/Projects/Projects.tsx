@@ -11,10 +11,7 @@ function Projects() {
   const filters = ["All", "Full Stack", "Backend"];
 
   return (
-    <section
-      className="projects"
-      id="projects"
-    >
+    <section className="projects" id="projects">
       <div className="projects__header">
         <div className="projects__title">
           <h2>Featured Projects</h2>
@@ -24,13 +21,7 @@ function Projects() {
 
         <div className="projects__filters">
           {filters.map((filter) => (
-            <button
-              key={filter}
-              className={`projects__filter-btn ${
-                activeFilter === filter ? "active" : ""
-              }`}
-              onClick={() => setActiveFilter(filter)}
-            >
+            <button key={filter} className={`projects__filter-btn ${  activeFilter === filter ? "active" : "" }`}onClick={() => setActiveFilter(filter)}>
               {filter}
             </button>
           ))}

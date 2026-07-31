@@ -54,18 +54,14 @@ function Contact() {
             <div>
               <h4>Email</h4>
               <a href="mailto:yourmail@gmail.com">
-                yourmail@gmail.com
+                jithulucky55@gmail.com
               </a>
             </div>
 
             <div>
               <h4>GitHub</h4>
-              <a
-                href="https://github.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                github.com/yourusername
+              <a  href="https://github.com/Jithendhar-Balda" target="_blank" rel="noreferrer" >
+                github/Jithendhar-Balda
               </a>
             </div>
 

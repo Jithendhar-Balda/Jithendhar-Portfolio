@@ -80,7 +80,8 @@
 }
 
 .hero__buttons .secondary-btn:hover {
-  background-color: var(--color-surface-hover);
+  background-color: var(--color-btn-primary-hover);
+  color: var(--color-btn-primary-text);
 }
 
 @media (max-width: 48rem) {

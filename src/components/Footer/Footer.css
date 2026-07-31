@@ -1,6 +1,6 @@
 .footer {
   padding-block: 4rem 2rem;
-  background: var(--color-text-dark);
+  background-color: var(--color-border-light);
   color: var(--color-text-white);
 }
 
@@ -15,20 +15,21 @@
   gap: 3rem;
 
   padding-bottom: 2rem;
-
-  border-bottom: .0625rem solid rgba(255, 255, 255, .12);
+padding-left:2rem;
+  border-bottom: .0625rem solid var(--color-text-dark);
 }
 
 .footer__brand h2 {
   margin-bottom: 1rem;
-
+color: var(--color-text-dark);
   font-size: 2rem;
 }
 
 .footer__brand p {
   max-width: 26rem;
 
-  color: rgba(255,255,255,.7);
+  
+color: var(--color-text-dark);
 
   line-height: 1.8;
 }
@@ -42,14 +43,15 @@
 
 .footer__links a,
 .footer__socials a {
-  color: rgba(255,255,255,.7);
+  
+color: var(--color-text-dark);
 
   transition: var(--transition);
 }
 
 .footer__links a:hover,
 .footer__socials a:hover {
-  color: var(--color-primary-blue-light);
+  color: var(--color-primary-blue);
 }
 
 .footer__bottom {
@@ -57,9 +59,11 @@
   justify-content: space-between;
   align-items: center;
 
-  padding-top: 2rem;
+  padding-top: 1rem;
 
-  color: rgba(255,255,255,.6);
+  
+color: var(--color-text-dark);
+  padding-left:2rem;
 
   font-size: .95rem;
 }
