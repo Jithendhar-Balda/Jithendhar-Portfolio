@@ -206,21 +206,12 @@ function Contact() {
               <span>baldajithendhar@gmail.com</span>
             </a>
 
-            <a
-              href="https://github.com/Jithendhar-Balda"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="contact__detail github"
-            >
+            <a  href="https://github.com/Jithendhar-Balda" target="_blank" rel="noopener noreferrer" className="contact__detail github">
               <FaGithub className="contact__icon" />
               <span>github.com/Jithendhar-Balda</span>
             </a>
 
-            <a href="https://www.linkedin.com/in/your-linkedin/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="contact__detail linkedin"
-            >
+            <a href="https://www.linkedin.com/in/your-linkedin/" target="_blank" rel="noopener noreferrer" className="contact__detail linkedin" >
               <FaLinkedinIn className="contact__icon" />
               <span>linkedin.com/in/your-linkedin</span>
             </a>
@@ -233,49 +224,20 @@ function Contact() {
         </div>
 
         <form className="contact__form" onSubmit={handleSubmit}>
-          <input
-            type="text"
-            name="name"
-            placeholder="Your Name"
-            value={formData.name}
-            onChange={handleChange}
-            required
-          />
+          <input type="text" name="name" placeholder="Your Name" value={formData.name} onChange={handleChange} required />
 
-          <input
-            type="email"
-            name="email"
-            placeholder="Your Email"
-            value={formData.email}
-            onChange={handleChange}
-            required
-          />
 
-          <input
-            type="text"
-            name="subject"
-            placeholder="Subject"
-            value={formData.subject}
-            onChange={handleChange}
-            required
-          />
+          <input type="email" name="email" placeholder="Your Email" value={formData.email} onChange={handleChange} required />
 
-          <textarea
-            name="message"
-            rows={6}
-            placeholder="Write your message..."
-            value={formData.message}
-            onChange={handleChange}
-            required
-          />
 
-          <button
-            type="submit"
-            className="primary-btn"
-            disabled={loading}
-          >
-            {loading ? "Sending..." : "Send Message"}
-          </button>
+          <input type="text" name="subject" placeholder="Subject" value={formData.subject} onChange={handleChange} required />
+
+
+          <textarea name="message" rows={6} placeholder="Write your message..." value={formData.message} onChange={handleChange} required />
+
+
+          <button type="submit" className="primary-btn" disabled={loading}>{loading ? "Sending..." : "Send Message"}</button>
+
 
           {status.message && (
             <p className={status.type}>

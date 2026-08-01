@@ -96,7 +96,7 @@
   position: relative;
 }
 
-.contact__detail:hover {
+.contact__icon:hover, .contact__detail span:hover {
   color: var(--color-primary-blue);
   transform: translateX(0.0575rem);
 }
