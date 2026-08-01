@@ -98,7 +98,7 @@
 
 .contact__detail:hover {
   color: var(--color-primary-blue);
-  transform: translateX(0.25rem);
+  transform: translateX(0.0575rem);
 }
 
 /* ==========================
