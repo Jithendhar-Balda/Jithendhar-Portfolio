@@ -169,6 +169,23 @@
 }
 
 
+.success {
+  color: var(--color-message-success);
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+.error {
+  color: var(--color-message-error);
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+.primary-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
 @media (max-width: 48rem) {
   .contact__container {
     flex-direction: column;
